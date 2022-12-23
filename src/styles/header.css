@@ -1,0 +1,138 @@
+.header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    background: #fff;
+}
+
+.company__name{
+    padding: 20px 0px 0px 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+.menu span{
+    display: flex;
+    gap: 34px;
+    margin-right: 13px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212245;
+}
+
+.menu div{
+    transition: .3s;
+    cursor: pointer;
+}
+
+.mobile__menu i{
+    font-weight: 600;
+    display: none;
+}
+
+
+.mobile__menu i{
+    font-size: 1.3rem;
+    color: #212245;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:992px){
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.425);
+        z-index: 99;
+        display: none;
+    }
+
+    .navbar__details{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 250px;
+        background: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .navbar__details{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .mobile__menu i{
+        font-size: 1.3rem;
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        margin-right: 20px;
+        margin-top: -30px;
+    }
+
+    .show__menu{
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .navbar{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.navbar{
+    padding-top: 2px!important;
+}
+.navbar a{
+    text-decoration: none;
+    color: #212245;
+    letter-spacing: .5px;
+}
+
+.navbar a:after{
+    content: "";
+    display: block;
+    background: #f2c396;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #f2c396;
+}
+
+.navbar a:hover:after{
+    width: 100%;
+} 

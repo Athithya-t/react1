@@ -1,0 +1,35 @@
+.customer__name{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 30px 0px 20px 30px;
+}
+
+.customer__name i{
+    font-size: 13px;
+    padding: 2px;
+}
+
+.customer__name i:nth-child(1){
+    margin-left: 10px;
+}
+
+.comments{
+    margin: 0px 30px 20px 30px;
+}
+
+@media screen and (min-width:900px){
+    .customer__name{
+        margin: 30px 0px 30px 60px;
+    }
+    
+    .comments{
+        margin: 30px 30px 30px 60px;
+    }
+}
+
+.comments{
+    font-weight: 600;
+    color: #0000009e;
+    letter-spacing: .2px;
+    font-size: 18px;
+}
