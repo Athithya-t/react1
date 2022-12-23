@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/home.css';
-import {  Col, Row } from 'reactstrap';
+import { Col, Row } from 'reactstrap';
 import 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import Testimonials from '../Testimonials/Testimonials';
@@ -71,8 +71,10 @@ const Home = () => {
                 </section>
             </div>
 
+    
+              <section className='section-services'>
+
               <h3 className='services__title'  id='services'>Services</h3>
-              <section>
                   <Row>
                   
                       <Col lg='4' md='4'>

@@ -1,13 +1,34 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'reactstrap'
 import '../../styles/testimonials.css';
 import 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
+const head_style = {
+    display: "grid",
+    justifyContent: "center",
+    fontSize: "35px",
+    letterSpacing: "1.2px",
+    color: "#b0923a",
+    fontWeight: "600",
+}
+
+const p_style = {
+    textAlign: "center",
+    color: "#9eb9cc",
+}
+
+
 const Testimonials = () => {
   return (
     <div>
+
+        <div>
+            <p style={head_style}>What Clients Say</p>
+            <p style={p_style} className='p_style'>We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.</p>
+        </div>
+
         <section>
             <Row>
 
@@ -19,7 +40,7 @@ const Testimonials = () => {
                         <i class='ri-star-fill'></i>
                         <i class='ri-star-half-fill'></i>
                     </h5>
-                    <p className='comments'>The quality of the cashews that've delivered was at top of the line. I was bit worried about the delivery,but they changed my mind. It was a super fast and super safe. Cheers to Anish cashews !</p>
+                    <p className='comments'>I've been a loyal customer of this cashew business for years, and I can honestly say that their products are the best I've ever had. </p>
                 </Col>
 
                 <Col lg='6' md='6' className='testimonials__div'>
@@ -56,7 +77,11 @@ const Testimonials = () => {
                 </Col>
 
             </Row>
+
+
         </section>
+
+        
     </div>
   )
 }
