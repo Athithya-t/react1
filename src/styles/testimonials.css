@@ -1,61 +1,61 @@
-.customer__name{
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 30px 0px 20px 30px;
+.testimonials__div{
+    border: 2px solid #274572;
+    border-radius: 10px;
+    background: linear-gradient(176deg, #0c3775a8, transparent);
 }
 
-.p_style{
-    margin: 0px 30px 30px;
-}
-@media screen and (min-width:800px){
-.p_style{
-    margin: 0px 50px 50px 50px;
-}
-}
-
-.customer__name i{
-    font-size: 13px;
-    padding: 2px;
-}
-
-.customer__name i:nth-child(1){
-    margin-left: 10px;
-}
 
 .comments{
-    margin: 0px 30px 20px 30px;
+    margin: 0px 40px 0px 40px;
     opacity: 5;
 }
 
+.carousel{
+    height: 430px;
+    background: linear-gradient(128deg, #164282, #397fbc,#506a7f, transparent);
+    max-width: 20rem;
+    margin: 50px auto 50px auto;
+    border-radius: 20px;
+}
 
-@media screen and (min-width:900px){
-    .customer__name{
-        margin: 30px 0px 30px 60px;
+@media screen and (min-width:800px){
+    .carousel{
+        max-width: 34rem;
+        margin: 100px auto 100px auto;
+        height: 400px;
     }
-    
-    .comments{
-        margin: 30px 30px 30px 60px;
-    }
+}
+.user{
+    margin: 50px 0px 30px 30px;
+}
+
+.user i{
+    padding: 5px;
+}
+
+.place{
+    margin: 0px 0px 0px 30px;
+    font-size: inherit;
 }
 
 .comments{
     font-weight: 600;
     color: #0000009e;
     letter-spacing: .2px;
+    margin-bottom: 30px;
     font-size: 18px;
 }
 
-.carousel-container{
-    display: flex;
-    flex-wrap: nowrap;
-    overflow: hidden;
+.carousel-control-prev{
+    display: none;
 }
-.carousel-item{
-    height: 20rem;
-    min-width: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 1s cubic-bezier(0.19, 1, 0.22, 1);
+
+.carousel-control-next{
+    display: none;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
 }

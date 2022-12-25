@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import w320 from '../../assests/images/w320.png';
 import w240 from '../../assests/images/w240.png';
 import jh from '../../assests/images/jh.png'
-
+import Particles from '../../components/ParticlesJS'
 const products = () => {
 
     const products=[
@@ -27,7 +27,7 @@ const products = () => {
   return (
     <div>
       <Row>
-            <Col lg='12' md='4' className='product'>
+            <Col lg='12' md='4' sm='12' className='product'>
                 {
                     products.map((item,index)=>(
                         <div lg='6' md='6' sm='12' key={index} className='product-img'>
