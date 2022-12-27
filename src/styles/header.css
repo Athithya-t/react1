@@ -114,14 +114,14 @@
 }
 .navbar a{
     text-decoration: none;
-    color: #212245;
+    color: #030e1e;
     letter-spacing: .5px;
 }
 
 .navbar a:after{
     content: "";
     display: block;
-    background: #f2c396;
+    background: #030e1e;
     height: 3px;
     width: 0;
     left: 0;
@@ -130,7 +130,7 @@
 }
 
 .navbar a:hover{
-    color: #f2c396;
+    color: #030e1e;
 }
 
 .navbar a:hover:after{

@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { Row, Col } from 'reactstrap'
+import React from 'react';
 import '../../styles/testimonials.css';
 import 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -91,9 +90,9 @@ const Testimonials = () => {
           <h3 className='place'>Coimbatore</h3>
           </div>
           <p className="comments">
-            "I've been a loyal customer of this cashew business for years, and I
+            I've been a loyal customer of this cashew business for years, and I
             can honestly say that their products are the best I've ever had.
-            Highly recommend!
+            Highly recommend!"
           </p>
         </Carousel.Item>
         <Carousel.Item>

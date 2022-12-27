@@ -5,23 +5,31 @@ import 'bootstrap/dist/css/bootstrap.css';
 import w320 from '../../assests/images/w320.png';
 import w240 from '../../assests/images/w240.png';
 import jh from '../../assests/images/jh.png'
+import w210 from '../../assests/images/w210.jpg'
+import lwp from '../../assests/images/lwp.jpg'
 import Particles from '../../components/ParticlesJS'
 const products = () => {
 
     const products=[
         {
-            img:w320,
-            name: 'W 320'
+            img:w210,
+            name: 'W 210'
         },
-
         {
             img:w240,
             name: 'W 240'
         },
-
+        {
+            img:w320,
+            name: 'W 320'
+        },
         {
             img:jh,
             name: 'JH'
+        },
+        {
+            img:lwp,
+            name: 'LWP'
         },
     ]
   return (

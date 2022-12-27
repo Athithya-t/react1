@@ -17,11 +17,11 @@ const Footer = () => {
                   CUDDALORE, TAMILNADU</div>
                   <p className='footer__privacyPolicy'>Privacy Policy</p>
                  
-                  <div className='footer__icons'>
+                  {/* <div className='footer__icons'>
                     <i class="ri-instagram-line"></i>
                     <i class="ri-whatsapp-line"></i>
                     <i class="ri-facebook-line"></i>
-                  </div>
+                  </div> */}
                 </Col>
             </Row>
         </section>

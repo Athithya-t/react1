@@ -7,9 +7,15 @@ import Testimonials from "../Testimonials/Testimonials";
 import Products from "../Products/products";
 import anish from "../../assests/images/anish.png";
 import Particles from "../../components/ParticlesJS";
-import Fssai from '../../assests/images/FSSAI_logo.png';
+import Fssai from "../../assests/images/FSSAI_logo.png";
+import Form from "../forms/Form";
+import ReactWhatsapp from 'react-whatsapp'
+
 
 const Home = () => {
+
+ 
+
   return (
     <div className="home">
       <section>
@@ -22,15 +28,16 @@ const Home = () => {
                 </h2>
 
                 <p>
-                  We provide quality cashews for over a, making our consumers
+                  We provide quality cashews for over a decade, making our consumers
                   always smile
                 </p>
 
-                
-
-                <div className="whatsAppIcon">
+                <ReactWhatsapp number="+91 9940558651">
+                  <div className="whatsAppIcon">
                   <i class="ri-whatsapp-line"></i>
                 </div>
+                </ReactWhatsapp>
+
               </div>
             </div>
           </Col>
@@ -70,6 +77,7 @@ const Home = () => {
             <h3 className="products__title" id="products">
               Our Products
             </h3>
+            <h2>ALL GRADES OF CASHEW NUTS AVAILABLE</h2>
             <section>
               <Row>
                 <Col>
@@ -132,12 +140,12 @@ const Home = () => {
             <Testimonials />
           </section>
 
-
-        <section className="fssai">
-            <img src={Fssai} alt='fssaiImg' className='fssai_logo'></img>
-            <h4>License Number: <span>12422004000653</span></h4>
-        </section>
-
+          <section className="fssai">
+            <img src={Fssai} alt="fssaiImg" className="fssai_logo"></img>
+            <h4>
+              License Number: <span>12422004000653</span>
+            </h4>
+          </section>
 
           <h3 className="contactUs__title" id="contactUs">
             Contact Us
@@ -148,25 +156,32 @@ const Home = () => {
                 <h5 className="companyname__contactUs">ANISH CASHEWS</h5>
                 <p className="contactUs__details">
                   647, Kumbakonam main road, Kadampuliyur, Panruti Cuddalore,
-                  Tamilnadu
+                  Tamilnadu - 607103
                 </p>
 
                 <p className="contactUs__details">
-                  Phone number:&nbsp;&nbsp; 9894676871,&nbsp;&nbsp; 7904258896
+                  Phone number:&nbsp;&nbsp; 9894676871,&nbsp;&nbsp; 9940558651
                 </p>
 
                 <p className="contactUs__details">
                   GST No: &nbsp;&nbsp; 33GIGPS5304M1ZX
                 </p>
 
+                <p className="contactUs__details">
+                  <a class='icon' href="mailto: anishcashews.official@gmail.com">anishcashews.official@gmail.com</a>
+                </p>
                 <h5 className="contactUs__socilaMedia">
                   Our Social Media Pages
                 </h5>
+                {/* <ReactWhatsapp number="+91 9940558651">
+                  <div className="whatsAppIcon">
+                  <i class="ri-whatsapp-line"></i>
+                </div>
+                </ReactWhatsapp> */}
 
                 <div className="contactUs__icons">
-                  <i class="ri-instagram-line"></i>
-                  <i class="ri-whatsapp-line"></i>
-                  <i class="ri-facebook-line"></i>
+                  <a class="icon" href="https://www.instagram.com/anish.cashews/"><i class="ri-instagram-line"></i></a>
+                  <a class="icon" href="https://www.facebook.com/profile.php?id=100089137026413"><i class="ri-facebook-line"></i></a>
                 </div>
               </Col>
 
@@ -186,10 +201,10 @@ const Home = () => {
             </Row>
           </section>
 
-          {/* <section>
-                <h4>Email</h4>
-                <form placeholder="Enter your Email Id" type='email'></form>
-          </section> */}
+          <section>
+            
+             <Form/>
+          </section>
         </Row>
       </section>
     </div>

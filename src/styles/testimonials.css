@@ -29,6 +29,9 @@
     margin: 50px 0px 30px 30px;
 }
 
+.userName{
+    font-weight: 600;
+}
 .user i{
     padding: 5px;
 }

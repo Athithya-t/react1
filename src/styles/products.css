@@ -12,6 +12,13 @@
     }
 }
 
+@media screen and (min-width:330px) and (min-height:730px) {
+    .product{
+        display: flex;
+    }
+}
+
+
 canvas{
     display: block;
     vertical-align: bottom;
@@ -34,8 +41,7 @@ canvas{
     .product{
         margin-bottom: 40px;
         gap: 50px;
-    }
-   
+    } 
 }
 
 .product-img img:hover{

@@ -193,13 +193,20 @@
 .products_div{
     background-color: #e9e9e9;
     padding-bottom: 50px;
+}
 
+.products_div h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 30px;
 }
 
 .products__title{
     text-align: center;
     font-weight: 600;
     margin: 100px 0px 10px 0px;
+    font-size: 17px;
 }
 
 .quality{
@@ -368,4 +375,82 @@
         margin: auto;
         margin-bottom: 30px;
     }
+}
+
+form input {
+    min-width: 300px;
+    display: block;
+    margin: 10px 0px 20px 40px;
+    height: 50px;
+    padding: 20px;
+    outline: none;
+    background: linear-gradient(173deg, #0f1a2b, #122739,#2b4c66, transparent);
+    border: none;
+    transition: .3s;
+    border-radius: 10px;
+    color: #d3d8db;
+}
+
+@media screen and (max-width:800px){
+    form input{
+        margin: 10px auto 20px auto;
+    }
+    .text_field div{
+        margin: 10px 0px 20px 40px;
+    }
+}
+textarea{
+    min-width: 300px;
+    /* display: flex;
+    margin: auto; */
+    padding: 20px;
+    outline: none;
+    background: linear-gradient(173deg, #0f1a2b, #122739,#2b4c66, transparent);
+    border: none;
+    transition: .3s;
+    border-radius: 10px;
+    color: #d3d8db;
+}
+
+.text_field div{
+    margin: 10px 0px 20px 40px;
+}
+
+label{
+    margin: 10px 0px 0px 30px;
+    color: #d3d8db;
+}
+form input:hover{
+    border-bottom: 2px solid rgb(14, 186, 97);
+    background:transparent;
+}
+
+.contctImg{
+    width: 300px;
+    border-radius: 20px;
+    display: block;
+    margin: 40px auto 50px auto;
+}
+
+.submit{
+    display: block;
+    margin: 30px auto 30px auto;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(14, 186, 97);
+    background:transparent;
+    color: #d3d8db;
+}
+
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+
+.icon{
+    color: #cfb381 !important;
+    text-decoration: none !important;
 }
