@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react1/static/css/main.ce41b09f.css",
-    "main.js": "/react1/static/js/main.a02d999d.js",
+    "main.css": "/react1/static/css/main.3e43e8ee.css",
+    "main.js": "/react1/static/js/main.84f18952.js",
     "static/js/787.1dcf7c0b.chunk.js": "/react1/static/js/787.1dcf7c0b.chunk.js",
     "static/media/anish.png": "/react1/static/media/anish.c68fbe68b3304573613c.png",
     "static/media/remixicon.svg?t=1590207869815": "/react1/static/media/remixicon.9cedd2150922ead84869.svg",
@@ -17,12 +17,12 @@
     "static/media/FSSAI_logo.png": "/react1/static/media/FSSAI_logo.ff36cd5bc3fac92b77e6.png",
     "static/media/w210.jpg": "/react1/static/media/w210.0d06f93f24a7f3a846ed.jpg",
     "index.html": "/react1/index.html",
-    "main.ce41b09f.css.map": "/react1/static/css/main.ce41b09f.css.map",
-    "main.a02d999d.js.map": "/react1/static/js/main.a02d999d.js.map",
+    "main.3e43e8ee.css.map": "/react1/static/css/main.3e43e8ee.css.map",
+    "main.84f18952.js.map": "/react1/static/js/main.84f18952.js.map",
     "787.1dcf7c0b.chunk.js.map": "/react1/static/js/787.1dcf7c0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce41b09f.css",
-    "static/js/main.a02d999d.js"
+    "static/css/main.3e43e8ee.css",
+    "static/js/main.84f18952.js"
   ]
 }
