@@ -5,9 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import w320 from '../../assests/images/w320.png';
 import w240 from '../../assests/images/w240.png';
 import jh from '../../assests/images/jh.png'
-import w210 from '../../assests/images/w210.jpg'
-import lwp from '../../assests/images/lwp.jpg'
-import Particles from '../../components/ParticlesJS'
+import w210 from '../../assests/images/w210.png'
+import lwp from '../../assests/images/lwp.png'
 const products = () => {
 
     const products=[

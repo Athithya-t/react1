@@ -336,6 +336,8 @@
     font-size: 18px;
 }
 
+
+
 .contactUs__socilaMedia{
     margin: 20px 20px 30px 30px ;
     font-size: 20px;
@@ -425,8 +427,13 @@ textarea{
     transition: .3s;
     border-radius: 10px;
     color: #d3d8db;
+    transition: .3s;
 }
 
+textarea:hover{
+    border-bottom: 2px solid rgb(14, 186, 97);
+    background:transparent;
+}
 .text_field div{
     margin: 10px 0px 20px 40px;
 }
@@ -455,8 +462,7 @@ form input:hover{
     height: 40px;
     border: none;
     outline: none;
-    /* border-bottom: 2px solid rgb(14, 186, 97); */
-    border-color: linear-gradient(#ff0000,#ff6e00,#ffe900,#0eff00,#0006ff,#a400ff);
+    border-bottom: 2px solid rgb(14, 186, 97);
     background:transparent;
     color: #d3d8db;
 }

@@ -34,6 +34,15 @@
     letter-spacing: 2px;
 }
 
+.footer__privacyPolicy a{
+    text-decoration: none;
+    color: #e2e8f1;
+}
+
+.footer__privacyPolicy a:hover{
+    color: #cfb381;
+}
+
 .footer__icons{
     display: flex;
     flex-direction: row;

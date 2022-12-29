@@ -16,6 +16,7 @@ const Footer = () => {
                   KADAMPULIYUR, PANRUTI
                   CUDDALORE, TAMILNADU - 607103</div>
                   <p className='footer__privacyPolicy'>Privacy Policy</p>
+                  <p className='footer__privacyPolicy'><a href='https://melospiza.in'>From Melospiza</a></p>
                 </Col>
             </Row>
         </section>

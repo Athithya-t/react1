@@ -12,10 +12,10 @@ import Form from "../forms/Form";
 import ReactWhatsapp from 'react-whatsapp'
 
 
+
 const Home = () => {
-
- 
-
+  
+  
   return (
     <div className="home">
       <section>
@@ -49,7 +49,7 @@ const Home = () => {
           <section>
             <Row className="aboutUs__content">
               <Col lg="6" md="6" sm="6">
-                <p className="aboutUs__text">
+                <p className="aboutUs__text" data-aos="fade-up">
                   Our company has been proudly serving customers with
                   high-quality cashews for over 10 years. We source our cashews
                   from only the best farms, carefully selecting each batch to
@@ -152,7 +152,7 @@ const Home = () => {
           </h3>
           <section>
             <Row>
-              <Col lg="6" md="6">
+              <Col lg="6" md="6" className="contact">
                 <h5 className="companyname__contactUs">ANISH CASHEWS</h5>
                 <p className="contactUs__details">
                   647, Kumbakonam main road, Kadampuliyur, Panruti Cuddalore,
@@ -209,6 +209,7 @@ const Home = () => {
       </section>
     </div>
   );
+              
 };
 
 export default Home;
