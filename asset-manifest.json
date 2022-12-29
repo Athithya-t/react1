@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/react1/static/css/main.3e43e8ee.css",
-    "main.js": "/react1/static/js/main.84f18952.js",
-    "static/js/787.1dcf7c0b.chunk.js": "/react1/static/js/787.1dcf7c0b.chunk.js",
-    "static/media/anish.png": "/react1/static/media/anish.c68fbe68b3304573613c.png",
-    "static/media/remixicon.svg?t=1590207869815": "/react1/static/media/remixicon.9cedd2150922ead84869.svg",
-    "static/media/remixicon.eot?t=1590207869815": "/react1/static/media/remixicon.5cb99e6cba5a4619063f.eot",
-    "static/media/remixicon.ttf?t=1590207869815": "/react1/static/media/remixicon.f2616f597cf98f38d234.ttf",
-    "static/media/w240.png": "/react1/static/media/w240.f30df6d44612aef0f5a3.png",
-    "static/media/jh.png": "/react1/static/media/jh.a12dc1ba281352bc9166.png",
-    "static/media/homeImg2.jpg": "/react1/static/media/homeImg2.d0fb3c3861782b4485b5.jpg",
-    "static/media/w320.png": "/react1/static/media/w320.cbd5860c0a0c80c17ff1.png",
-    "static/media/remixicon.woff?t=1590207869815": "/react1/static/media/remixicon.8d09fa11700ed63cf96e.woff",
-    "static/media/contact.jpg": "/react1/static/media/contact.0e356a6a17c51f7ae282.jpg",
-    "static/media/remixicon.woff2?t=1590207869815": "/react1/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
-    "static/media/FSSAI_logo.png": "/react1/static/media/FSSAI_logo.ff36cd5bc3fac92b77e6.png",
-    "static/media/w210.jpg": "/react1/static/media/w210.0d06f93f24a7f3a846ed.jpg",
-    "index.html": "/react1/index.html",
-    "main.3e43e8ee.css.map": "/react1/static/css/main.3e43e8ee.css.map",
-    "main.84f18952.js.map": "/react1/static/js/main.84f18952.js.map",
-    "787.1dcf7c0b.chunk.js.map": "/react1/static/js/787.1dcf7c0b.chunk.js.map"
+    "main.css": "/sathyasivamloganathan/react1.git/static/css/main.459a2721.css",
+    "main.js": "/sathyasivamloganathan/react1.git/static/js/main.28231b8d.js",
+    "static/js/787.1dcf7c0b.chunk.js": "/sathyasivamloganathan/react1.git/static/js/787.1dcf7c0b.chunk.js",
+    "static/media/w210.png": "/sathyasivamloganathan/react1.git/static/media/w210.a54b118c140a1cfd1f3d.png",
+    "static/media/lwp.png": "/sathyasivamloganathan/react1.git/static/media/lwp.5634fa5800013ba99b15.png",
+    "static/media/anish.png": "/sathyasivamloganathan/react1.git/static/media/anish.c68fbe68b3304573613c.png",
+    "static/media/remixicon.svg?t=1590207869815": "/sathyasivamloganathan/react1.git/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/sathyasivamloganathan/react1.git/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/sathyasivamloganathan/react1.git/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/w240.png": "/sathyasivamloganathan/react1.git/static/media/w240.f30df6d44612aef0f5a3.png",
+    "static/media/jh.png": "/sathyasivamloganathan/react1.git/static/media/jh.a12dc1ba281352bc9166.png",
+    "static/media/homeImg2.jpg": "/sathyasivamloganathan/react1.git/static/media/homeImg2.d0fb3c3861782b4485b5.jpg",
+    "static/media/w320.png": "/sathyasivamloganathan/react1.git/static/media/w320.cbd5860c0a0c80c17ff1.png",
+    "static/media/remixicon.woff?t=1590207869815": "/sathyasivamloganathan/react1.git/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/contact.jpg": "/sathyasivamloganathan/react1.git/static/media/contact.0e356a6a17c51f7ae282.jpg",
+    "static/media/remixicon.woff2?t=1590207869815": "/sathyasivamloganathan/react1.git/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/FSSAI_logo.png": "/sathyasivamloganathan/react1.git/static/media/FSSAI_logo.ff36cd5bc3fac92b77e6.png",
+    "index.html": "/sathyasivamloganathan/react1.git/index.html",
+    "main.459a2721.css.map": "/sathyasivamloganathan/react1.git/static/css/main.459a2721.css.map",
+    "main.28231b8d.js.map": "/sathyasivamloganathan/react1.git/static/js/main.28231b8d.js.map",
+    "787.1dcf7c0b.chunk.js.map": "/sathyasivamloganathan/react1.git/static/js/787.1dcf7c0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e43e8ee.css",
-    "static/js/main.84f18952.js"
+    "static/css/main.459a2721.css",
+    "static/js/main.28231b8d.js"
   ]
 }
