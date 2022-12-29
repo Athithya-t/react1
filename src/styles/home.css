@@ -236,7 +236,7 @@
     border-radius: 10px;
     margin: 10px 14px 25px 14px;
     transition: .3s ease-in;    
-    background: linear-gradient(153deg, #085a96,#5e7c96, transparent);
+    background: linear-gradient(162deg, #0a85df,#4884b6, transparent);
     /* background: linear-gradient(176deg, #36a4e9, transparent); */
 }
 
@@ -254,7 +254,7 @@
 }
 
 .section-services{
-    background: #274962;
+    background: #2a6692;
     padding-bottom: 100px;
 }
 
@@ -354,11 +354,20 @@
     color: #cfb381;
 }
 
-.contactUs__icons i{
+.mobileNo{
+    text-decoration: none;
+    color: #d3d8db;
     transition: .3s;
 }
 
-.contactUs__icons i:hover{
+.mobileNo:hover{
+    color: #cfb381;
+}
+.contactUs__icons a{
+    transition: .3s;
+}
+
+.contactUs__icons a:hover{
     transform: translateY(5px);
 }
 
@@ -395,6 +404,12 @@ form input {
     form input{
         margin: 10px auto 20px auto;
     }
+    .text_field div{
+        margin: 10px 0px 20px 20px;
+    }
+}
+
+@media screen and (min-width:800px) and(max-width:1024px){
     .text_field div{
         margin: 10px 0px 20px 40px;
     }
@@ -440,7 +455,8 @@ form input:hover{
     height: 40px;
     border: none;
     outline: none;
-    border-bottom: 2px solid rgb(14, 186, 97);
+    /* border-bottom: 2px solid rgb(14, 186, 97); */
+    border-color: linear-gradient(#ff0000,#ff6e00,#ffe900,#0eff00,#0006ff,#a400ff);
     background:transparent;
     color: #d3d8db;
 }
@@ -453,4 +469,10 @@ form input:hover{
 .icon{
     color: #cfb381 !important;
     text-decoration: none !important;
+}
+
+.mail{
+    color: #cfb381 !important;
+    text-decoration: none !important;
+    font-size: 16px;
 }

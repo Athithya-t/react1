@@ -160,7 +160,7 @@ const Home = () => {
                 </p>
 
                 <p className="contactUs__details">
-                  Phone number:&nbsp;&nbsp; 9894676871,&nbsp;&nbsp; 9940558651
+                  Phone number:&nbsp;&nbsp; <a class="mobileNo" href="tel:9894676871">9894676871</a>,&nbsp;&nbsp;<a class="mobileNo" href="tel:9940558651">9940558651</a> 
                 </p>
 
                 <p className="contactUs__details">
@@ -168,7 +168,7 @@ const Home = () => {
                 </p>
 
                 <p className="contactUs__details">
-                  <a class='icon' href="mailto: anishcashews.official@gmail.com">anishcashews.official@gmail.com</a>
+                  <a class='mail' href="mailto: anishcashews.official@gmail.com">anishcashews.official@gmail.com</a>
                 </p>
                 <h5 className="contactUs__socilaMedia">
                   Our Social Media Pages

@@ -2,7 +2,7 @@
   "name": "anish__cashews",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AnishCashews.github.io/LandingPage",
+  "homepage": "https://sathyasivamloganathan.github.io/react1",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.4",
     "@sefailyasoz/react-carousel": "^1.1.1",
